@@ -1,0 +1,500 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: Segoe UI, arial, helvetica, sans-serif;
+}
+#wrapper{
+	width:1200px;
+	height:auto;
+	background:white;
+	margin-top:-5px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.Head{
+	width:1200px;
+}
+
+.PLname{
+	width:400px;
+	margin-left:50px;
+	position:absolute;
+	z-index:10;
+}
+.PLfade{
+	height:135px;
+	width:1200px;
+	position:relative;
+	z-index:5;
+	margin-bottom:-5px;
+}
+a:link {color:#4986BC;}
+a:visited {color:#4986BC;}
+a:hover {color:#888888;}
+a:active {color:#1C344E;}
+
+.BG_GRAY{
+	background-color:#eaeaea;
+	margin-top:40px;
+	padding-bottom:1px;
+}
+
+#REPAIR_TOP{
+	background:#DBE8F2;
+	width:1200px;
+	height:85px;
+	color:#888888;
+	clear:both;
+	margin-top:42px;
+	outline:solid 1px #4986BC;
+}
+#REPAIR_TOP p{
+	padding:13px;
+	font-size:20px;
+}
+
+#PCREPAIR_TOP{
+	background:#DBE8F2;
+	width:1200px;
+	height:115px;
+	color:#888888;
+	clear:both;
+	margin-top:42px;
+	outline:solid 1px #4986BC;
+}
+
+#PCREPAIR_TOP p{
+	padding:13px;
+	font-size:20px;
+}
+
+#SPREPAIR_TOP{
+	background:#DBE8F2;
+	width:1200px;
+	height:170px;
+	color:#888888;
+	clear:both;
+	margin-top:42px;
+	outline:solid 1px #4986BC;
+}
+
+#SPREPAIR_TOP p{
+	padding:13px;
+	font-size:20px;
+	text-align:justify;
+}
+
+#SPREPAIR_MAIN{
+	background-color:#eaeaea;
+	width:100%;
+	height:499px;
+	margin-top:38px;
+}
+
+#SPREPAIR_MAIN h2{
+	color:#888888;
+	padding-top:20px;
+	padding-left:90px;
+}
+
+#SPREPAIR_MAIN p{
+	float:left;
+	padding-left:10px;
+}
+
+#SPREPAIR_MAIN img{
+	float:right;
+	margin-top:-100px;
+	margin-right:80px;
+}
+
+#DEGNREPAIR_TOP{
+	background:#DBE8F2;
+	width:1200px;
+	height:145px;
+	color:#888888;
+	clear:both;
+	margin-top:42px;
+	outline:solid 1px #4986BC;
+}
+
+#DEGNREPAIR_TOP p{
+	padding:13px;
+	font-size:20px;
+	text-align:justify;
+}
+
+.BOTTOM_BAR{
+	background-color:#eaeaea;
+	width:100%;
+	height:30px;
+	border-top:solid 1px #888888;
+}
+.BOTTOM_BAR p{
+	text-align:center;
+	font-size:11px;
+	color:#888888;
+	margin-top:7px;
+}
+
+body{
+	font-family: Segoe UI, Arial, Helvetica, San-Serif;
+}
+#wrapper{
+	width:1200px;
+	height:auto;
+	background:white;
+	margin-top:-5px;
+	margin-left:auto;
+	margin-right:auto;
+	/*outline:solid 1px red;/*temporary outline for positioning*/
+}
+.Head{
+	width:1200px;
+}
+
+.PLname{
+	width:400px;
+	margin-left:50px;
+	position:absolute;
+	z-index:10;
+}
+.PLfade{
+	height:135px;
+	width:1200px;
+	position:relative;
+	z-index:5;
+	margin-bottom:-5px;
+}
+
+/* main_container holds both the main and sidebar content <section> tags */
+.main_container{
+	color: #82818c;
+	letter-spacing: 0.07em;
+	width: 1120px;
+	height: 690px;
+	padding: 40px;
+	background-color: #eaeaea;
+	display: block;
+	clear: both;
+}
+/* main_wrapper wraps both the main and sidebar content <section> tags */
+.main_wrapper{
+	width: 1020px;
+	height: 690px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #eaeaea;
+}
+/* ----------------------------------
+// --- LEFT SECTION WITH FORM BOX ---
+// ----------------------------------
+*/
+/* main is the <section> tag that wraps the .page content (which contains "Contact Us" form boxes and titles) */
+#main{
+	width: 714px;
+	height: 690px;
+	background-color: #eaeaea;
+	float: left;
+}
+/* sidebar is the <section> tag that contains the Email, Phone, and On The Web information */
+#sidebar{
+	width: 281px;
+	/*height: 300px; */
+	margin-left: 25px;
+	float: right;
+	display: block;
+}
+/* page is the <article> tag that contains all the "Contact Us" form boxes and titles */
+.page{
+	width: 714px;
+	height: 690px;
+}
+/* #CONTACT_h1 is for the <h1> tag that displays "CONTACT US" */
+#CONTACT_h1{
+	font-size: 18px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	margin: 0 0 10px;
+}
+/* #CONTACT_p is for the <p> tag that displays the pages main paragraphs */
+#CONTACT_p{
+	font-size: 14px;
+	line-height: 24px;
+}
+/* form_box is the <div> tag that wraps the <form> tag */
+.form_box{
+	width: 714px;
+	height: 500px;
+	background-color: #eaeaea;
+}
+/* form_row is the <div> that contains the <label> and <input> tags for each form box */
+.form_row{
+	width: 714px;
+	height: 60px;
+	font-size: 14px;
+	margin: 20px 0 0 0;
+}
+/* .form_row label is for the <label> tag to display the labels above the text boxs */
+.form_row label {
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+/* for the label inside of <form> tag */
+label {
+	cursor: default;
+}
+/* spans the <input> tag in the form row */
+span.wpcf7-form-control-wrap{
+	position: relative;
+}
+/* for <input> and <textarea> tags */
+input, textarea{
+	font-family: Segoe UI, Arial, Helvetica, San-Serif;  /* <---------- This is here to override some piece of code */
+	font-size: 14px;									 /* that is messing with the font in the "YOUR MESSAGE" box */
+	line-height: 24px;
+	color: #82818c;
+	margin: 0em;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+}
+/* for specific <input> and <textarea> tags */
+.input-text, .input-textarea {
+	font-size: 14px;
+	padding: 5px;
+	border: 0;
+	width: 450px;
+	border: 1px solid #fff;
+}
+/* for the <textarea> tag in the "YOUR MESSAGE" section */
+textarea {
+	resize: vertical;
+	overflow: auto;
+	vertical-align: top;
+	margin: 0px;
+	background-color: white;
+	flex-direction: column;
+	cursor: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+/* for specific <textarea> tag */
+.input-textarea {
+	height: 165px;
+	resize: none;
+}
+/* for specific <div> tag of "form_row" class (Makes the message box extra tall) */
+#msg_text_box{
+	height: 200px;
+}
+
+/* -------------------------
+// ----- SUBMIT BUTTON -----
+// -------------------------
+/*
+/* for the submit button inside of the <form> tag */
+html input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+/* for the form row that contains the "SEND" button */
+.form_row_submit{
+	font-size: 14px;
+	margin: 30px 0 0 0;
+	display: block;
+}
+/* CSS for the "SEND" button */
+.btn-submit, #submit {
+	font-weight: 600;
+	color: #fff;
+	background-color: #4986BC;
+	padding: 7px 10px 5px;
+	line-height: 1;
+	border: 0;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+}
+
+/* --------------------------
+// ---- SIDE BAR SECTION ----
+// --------------------------
+*/
+/* for the <section> tag that contains all the <div>'s in the sidebar */
+#sidebar {
+	letter-spacing: 0.025em;
+	margin: 0 0 0 25px !important;
+}
+/* for the individual <div> tags within the <section> tag */
+#sidebar .section {
+	background: #eaeaea;
+	padding: 0 0 4px;
+	margin: 0 0 20px;
+}
+#sidebar .section .title, #sidebar .widgettitle {
+	color: #4986BC;
+	letter-spacing: 0.1em;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+#sidebar .section .content {
+	color: #82818c;
+	font-size: 14px;
+	padding: 0 0 20px;
+}
+#sidebar a {
+	color: #82818c;
+	text-decoration: none;
+}
+/* This gives the line between the individual <div> tags within the <section> tag */
+.line_break{
+	width:281px;
+	height: 2px;
+	background-color: #d3d3d3;
+}
+
+/* --------------------------
+// ------ ABOUT US CSS ------ 
+// --------------------------
+*/
+#CONTACT_ABOUT_h1{
+	font-size: 18px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	margin: 0 0 10px;
+}
+#CONTACT_ABOUT_p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.about_box{
+	width: 714px;
+	height: 500px;
+	background-color: #eaeaea;
+}
+
+/* -------------------------
+// ----- PC TUNEUP CSS -----
+// -------------------------
+*/
+#PCREPAIR_TUNEUP_h1{
+	font-size: 18px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	margin: 0 0 10px;
+}
+#PCREPAIR_TUNEUP_h3{
+	font-size: 15px;
+	line-height: 1;
+	text-transform: uppercase;
+	letter-spacing: 0.07em;
+	margin: 0 0 10px;
+}
+#PCREPAIR_TUNEUP_p{
+	font-size: 14px;
+	line-height: 24px;
+}
+.service_box{
+	width: 714px;
+	height: 500px;
+	background-color: #eaeaea;
+}
+table{
+	border-collapse: collapse;
+	border-spacing: 2px;
+	border-color: gray;
+	display: table;
+}
+.chart{
+	border-color: #82818c;
+	border-image: none;
+	border-right: medium none;
+	border-style: solid none none;
+	border-width: 10px medium medium;
+	text-align: left;
+	width: 714px;
+}
+tbody{
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+		border-top-color: inherit;
+		border-right-color: inherit;
+		border-bottom-color: inherit;
+		border-left-color: inherit;
+}
+tr{
+	display: table-row;
+	vertical-align: inherit;
+	border-color: inherit;
+}
+.chart th{
+	background: none repeat scroll 0 0 #333333;
+	color: #FFFFFF;
+	font-weight: normal;
+	padding: 6px 15px;
+	text-align: left;
+}
+th {
+	font-weight: bold;
+}
+td, th{
+	display: table-cell;
+	vertical-align: inherit;
+}
+.chart td{
+	border-bottom: 1px solid #CCCCCC;
+	padding: 12px 15px;
+}
+td{
+	vertical-align: top;
+	font-size: 14px;
+}
+.chart td.border{
+	border-left: 1px solid #CCCCCC;
+	text-align: center;
+	width: 90px;
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
