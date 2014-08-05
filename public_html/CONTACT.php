@@ -32,32 +32,32 @@ function spamcheck($field) {
       <img src="Pictures/head_gradient.png" class="PLfade" alt"gradient">
         
       <ul id="MenuBar1" class="MenuBarHorizontal">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="ABOUT.html">Home</a></li>
           
           <li><a href="REPAIR.html" class="MenuBarItemSubmenu">Repair Services</a>
           	<ul>              
               <li><a href="PCREPAIR.html" class="MenuBarItemSubmenu">PC Services</a>
                 <ul>
                   <li><a href="PCREPAIR_TUNEUP.html">PC Tune-Up</a></li>
-                  <li><a href="PCREPAIR_VIRUS.html">Virus, Spyware, Malware Removal</a></li>
+                  <!--<li><a href="PCREPAIR_VIRUS.html">Virus, Spyware, Malware Removal</a></li>
                   <li><a href="PCREPAIR_HW.html">Hardware Repair</a></li>
-                  <li><a href="PCREPAIR_BUILD.html">Custom PC Builds</a></li>
+                  <li><a href="PCREPAIR_BUILD.html">Custom PC Builds</a></li>-->
                 </ul>
               </li>
               
               <li><a href="SPREPAIR.html" class="MenuBarItemSubmenu">Smartphone Repair</a>
                 <ul>
                   <li><a href="SPREPAIR_APPLE.html">Apple iPhone and iPad</a></li>
-                  <li><a href="SPREPAIR_OTHER.html">Other Smartphones</a></li>
+                  <!--<li><a href="SPREPAIR_OTHER.html">Other Smartphones</a></li>-->
                 </ul>
               </li>
               
-              <li><a href="ELECREPAIR.html">Electronics Repair</a></li>
+              <!--<li><a href="ELECREPAIR.html">Electronics Repair</a></li>-->
             
             </ul>
           </li>
           
-          <li><a href="DESIGN.html" class="MenuBarItemSubmenu">Design Services</a>
+          <!--<li><a href="DESIGN.html" class="MenuBarItemSubmenu">Design Services</a>
             <ul>
               <li><a href="DESIGN_GRAPH.html">Graphics Design</a></li>
               <li><a href="DESIGN_WEB.html">Web Development</a></li>
@@ -65,7 +65,7 @@ function spamcheck($field) {
           </li>
           
           <li><a href="NETWORK.html">Networking</a></li>
-          
+          -->
           <li><a href="CONTACT.php"class="MenuBarItemSubmenu">Contact Us</a>
           	<ul>
               <li><a href="ABOUT.html">About Us</a></li>
